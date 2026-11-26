@@ -11,9 +11,13 @@ The client accepts only these three queries (capitalization and "?" are ignored)
 
 # Configuration
 You would need to set up a database connection for your local database and your teammate's database in CMD (Windows).
+
 Inside CMD:
+
 set "LOCAL_DB_URL=postgresql..."
+
 set "PEER_DB_URL=postgresql..."
+
 
 # Running
 1. Start the server, then enter a port (ex. 5000)
